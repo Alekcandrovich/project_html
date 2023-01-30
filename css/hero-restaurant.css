@@ -1,0 +1,196 @@
+.hero__section {
+  height: 740px;
+  max-width: 1280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 1024px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_phone.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_phone.jpg);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), (min-resolution: 192dpi) and (max-width: 1024px), (min-resolution: 2dppx) and (max-width: 1024px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_phone_2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_phone_2x.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_tablet.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_tablet.jpg);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px), (min-resolution: 192dpi) and (min-width: 1024px), (min-resolution: 2dppx) and (min-width: 1024px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_tablet_2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_tablet_2x.jpg);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__section {
+    padding: 200px 0 200px 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_desctop.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_desctop.jpg);
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), (min-resolution: 192dpi) and (min-width: 1280px), (min-resolution: 2dppx) and (min-width: 1280px) {
+  .hero__section {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(../images/hero_restaurant_desctop_2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero_restaurant_desctop_2x.jpg);
+  }
+}
+
+.hero__container {
+  min-width: 320px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cleaning__ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hero__titel {
+  margin: 0;
+  padding: 181px 0 0 0;
+  text-align: center;
+  font-family: "Film P3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.073;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
+
+.hero__type {
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero__slogan {
+  margin: 0;
+  padding: 44px 0 0 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #FDFBEC;
+}
+
+.hero__button-position {
+  text-align: center;
+  padding: 113px 0 0 0;
+}
+
+.hero__button-table {
+  margin: 0 0 24px 0;
+  padding: 18px auto;
+  width: 236px;
+  height: 48px;
+  color: #F3C653;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  -webkit-transition-property: background-color, border-color, color;
+  transition-property: background-color, border-color, color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button-room {
+  margin: 0 0 58px 0;
+  padding: 18px auto;
+  width: 236px;
+  height: 48px;
+  color: #F3C653;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  -webkit-transition-property: background-color, border-color, color;
+  transition-property: background-color, border-color, color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 23px;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+.social__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  fill: rgba(243, 198, 83, 0.7);
+}
+
+.hero__address {
+  position: absolute;
+  right: 15px;
+  top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+}
+
+.location__icon {
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  fill: rgba(243, 198, 83, 0.7);
+}
+
+.town__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #E5E5E5;
+}/*# sourceMappingURL=hero-restaurant.css.map */
