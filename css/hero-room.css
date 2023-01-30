@@ -1,6 +1,6 @@
 .hero__section {
   height: 740px;
-  max-width: 1280px;
+  max-width: 1600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,13 +27,12 @@
 }
 @media screen and (min-width: 1280px) {
   .hero__section {
-    padding: 200px 0 200px 0;
-    background-image: url(../images/hero_hotel_desctop.jpg);
+    background-image: url(../images/hero_room_desctop.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), (min-resolution: 192dpi) and (min-width: 1280px), (min-resolution: 2dppx) and (min-width: 1280px) {
   .hero__section {
-    background-image: url(../images/hero_hotel_desctop_2x.jpg);
+    background-image: url(../images/hero_room_desctop_2x.jpg);
   }
 }
 
@@ -64,6 +63,23 @@
   letter-spacing: 0.05em;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1024px) {
+  .hero__titel {
+    margin: 0 0 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__titel {
+    margin: 0 0 0 70px;
+    padding: 524px 0 0 0;
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.139;
+    letter-spacing: 0.05em;
+  }
+}
 
 .hero__room {
   margin: 0;
@@ -76,11 +92,28 @@
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1024px) {
+  .hero__room {
+    margin: 0 0 0 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__room {
+    margin: 0 0 0 70px;
+    padding: 24px 0 0 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+}
 
 .hero__button-price {
   position: absolute;
-  left: 110px;
-  bottom: 30px;
+  left: 109px;
+  bottom: 40px;
   padding: 18px auto;
   width: 236px;
   height: 48px;
@@ -101,6 +134,20 @@
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 1024px) {
+  .hero__button-price {
+    position: absolute;
+    left: 745px;
+    bottom: 62px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__button-price {
+    position: absolute;
+    left: 963px;
+    bottom: 66px;
+  }
+}
 
 .hero__social {
   margin: 16px 0 0 15px;
@@ -116,11 +163,25 @@
   border: none;
   padding: 0;
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .hero__social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 22px;
+    margin: 82px 0 0 372px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__social {
+    display: none;
+  }
+}
 
 .social__icon {
   width: 24px;
   height: 24px;
-  margin-right: 8px;
   fill: rgba(243, 198, 83, 0.7);
 }
 
@@ -135,8 +196,23 @@
       -ms-flex-align: center;
           align-items: center;
   width: 210px;
+  height: 47px;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
+}
+@media screen and (min-width: 1024px) {
+  .hero__address {
+    position: absolute;
+    left: 52px;
+    top: 660px;
+    width: 285px;
+    height: 56px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__address {
+    display: none;
+  }
 }
 
 .location__icon {
@@ -144,6 +220,12 @@
   width: 20px;
   height: 20px;
   fill: rgba(243, 198, 83, 0.7);
+}
+@media screen and (min-width: 1024px) {
+  .location__icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .town__text {
@@ -154,4 +236,14 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #E5E5E5;
+}
+@media screen and (min-width: 1024px) {
+  .town__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+  }
 }/*# sourceMappingURL=hero-room.css.map */
