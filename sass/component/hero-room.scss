@@ -51,17 +51,8 @@
   list-style: none;
 }
 
-.label {
-  width: 414x;
-  height: 143px;
-  background-color: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
-  position: absolute;
-  top: 0;
-  margin: 0;
-  padding: 0;
-}
-
 .hero__titel {
+  display: flex;
   margin: 0;
   padding: 484px 0 0 0;
   font-family: 'Times New Roman';
@@ -86,14 +77,6 @@
   letter-spacing: 0.02em;
 
   color: #FFFFFF;
-
-
-}
-
-.hero__button-position {
-  
-  top: 800px
-  // bottom: 30px;
 }
 
 .hero__button-price {
@@ -121,7 +104,7 @@
 
 
 .hero__social {
-  margin: 17px 0 0 15px;
+  margin: 16px 0 0 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;

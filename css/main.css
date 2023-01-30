@@ -1,3 +1,21 @@
+:root {
+  --hero__white: #ffffff;
+  --hero__icons-adress: rgba(243, 198, 83, 0.7);
+  --hero__adress: #E5E5E5;
+  --hero__label: #F3C653;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero__section {
   height: 740px;
   max-width: 1280px;
@@ -146,6 +164,7 @@
 .social__icon {
   width: 24px;
   height: 24px;
+  margin-right: 8px;
   fill: rgba(243, 198, 83, 0.7);
 }
 
@@ -179,4 +198,4 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #E5E5E5;
-}/*# sourceMappingURL=hero-hotel.css.map */
+}/*# sourceMappingURL=main.css.map */
