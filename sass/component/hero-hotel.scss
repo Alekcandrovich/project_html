@@ -1,6 +1,6 @@
 .hero__section {
   height: 740px;
-  max-width: 1280px;
+  max-width: 1600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,6 +80,16 @@
   letter-spacing: 0.3em;
 
   color: #FFFFFF;
+
+  @media screen and (min-width: 1280px) {
+  ont-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 1.078;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+}
 }
 
 .hero__type {
@@ -99,6 +109,14 @@
 .hero__button-position {
   text-align: center;
   padding: 178px 0 0 0;
+
+  @media screen and (min-width: 1024px) {
+  padding: 226px 0 0 473px;
+  display: flex;
+}
+  @media screen and (min-width: 1280px) {
+  padding: 249px 0 0 634px;
+}
 }
 
 .hero__button-table {
@@ -121,6 +139,13 @@
   transition-property: background-color, border-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  @media screen and (min-width: 1024px) {
+  margin: 0 40px 0 0;
+}
+  @media screen and (min-width: 1280px) {
+  margin: 0 60px 0 0;
+}
 }
 
 .hero__button-room {
@@ -151,6 +176,13 @@
   text-decoration: none;
   border: none;
   padding: 0;
+
+  @media screen and (min-width: 1024px) {
+  margin: 0 0 0 32px;
+}
+  @media screen and (min-width: 1280px) {
+  display: none;
+}
 }
 .social__icon {
   width: 24px;
@@ -165,8 +197,22 @@
   display: flex;
   align-items: center;
   width: 210px;
+  height: 47px;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
+
+  @media screen and (min-width: 1024px) {
+  position: absolute;
+  left: 47px;
+  top: 567px;
+  width: 285px;
+  height: 56px;
+}
+  @media screen and (min-width: 1280px) {
+  position: absolute;
+  left: 70px;
+  top: 587px;
+}
 }
 
 .location__icon {
@@ -174,6 +220,11 @@
   width: 20px;
   height: 20px;
   fill: rgba(243, 198, 83, 0.7);
+
+  @media screen and (min-width: 1024px) {
+  width: 24px;
+  height: 24px;
+}
 }
 .town__text {
   font-family: 'Montserrat';
@@ -184,4 +235,13 @@
   letter-spacing: 0.01em;
 
   color: #E5E5E5;
+
+  @media screen and (min-width: 1024px) {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
 }

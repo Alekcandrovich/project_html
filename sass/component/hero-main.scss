@@ -84,8 +84,18 @@
 
 .hero__type {
   margin: 0;
-  padding: 20px 0 0 0; 
+  padding: 24px 0 0 0; 
   text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+  @media screen and (min-width: 1280px) {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -95,26 +105,33 @@
 
   color: #FFFFFF;
 }
+}
 
 .hero__slogan {
   margin: 0;
   padding: 44px 0 0 0;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: 'Times New Roman';
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.156;
+  letter-spacing: 0.05em;
 
-color: #FDFBEC;
-
-
+  color: #FFFFFF;
 }
 
 .hero__button-position {
   text-align: center;
   padding: 113px 0 0 0;
+
+  @media screen and (min-width: 1024px) {
+  padding: 145px 0 0 469px;
+  display: flex;
+}
+  @media screen and (min-width: 1280px) {
+  padding: 145px 0 0 623px;
+}
 }
 
 .hero__button-table {
@@ -137,6 +154,13 @@ color: #FDFBEC;
   transition-property: background-color, border-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 1024px) {
+  margin: 0 40px 0 0;
+}
+  @media screen and (min-width: 1280px) {
+  margin: 0 60px 0 0;
+}
 }
 
 .hero__button-room {
@@ -167,6 +191,13 @@ color: #FDFBEC;
   text-decoration: none;
   border: none;
   padding: 0;
+
+  @media screen and (min-width: 1024px) {
+  margin: 0 0 0 32px;
+}
+  @media screen and (min-width: 1280px) {
+  display: none;
+}
 }
 .social__icon {
   width: 24px;
@@ -181,8 +212,22 @@ color: #FDFBEC;
   display: flex;
   align-items: center;
   width: 210px;
+  height: 47px;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
+
+  @media screen and (min-width: 1024px) {
+  position: absolute;
+  left: 47px;
+  top: 550px;
+  width: 285px;
+  height: 56px;
+}
+  @media screen and (min-width: 1280px) {
+  position: absolute;
+  left: 70px;
+  top: 561px;
+}
 }
 
 .location__icon {
@@ -190,6 +235,11 @@ color: #FDFBEC;
   width: 20px;
   height: 20px;
   fill: rgba(243, 198, 83, 0.7);
+
+  @media screen and (min-width: 1024px) {
+  width: 24px;
+  height: 24px;
+}
 }
 .town__text {
   font-family: 'Montserrat';
@@ -200,4 +250,13 @@ color: #FDFBEC;
   letter-spacing: 0.01em;
 
   color: #E5E5E5;
+
+  @media screen and (min-width: 1024px) {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
 }
